@@ -54,7 +54,23 @@ nav ul li a{
     color: white;
     text-decoration: none;
     font-size: 20px;
+    position: relative;
 }
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px; 
+    background: 8020BC;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5px;
+}
+nav ul li a:hover::after {
+    width: 100%;
+    
+}
+
 
 
 
