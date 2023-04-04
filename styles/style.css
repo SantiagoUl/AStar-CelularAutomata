@@ -1,12 +1,11 @@
 @font-face {
-  font-family: "abeezeeregular";
-  src: url("abeezee-regular-webfont.woff2") format("woff2"),
-    url("abeezee-regular-webfont.woff") format("woff");
+  src: url("abeezee-regular-webfont.woff2") format("woff2"), url("abeezee-regular-webfont.woff") format("woff");
+  font-family: "woff2";
   font-weight: normal;
   font-style: normal;
 }
 * {
-  font-family: "abeezeeregular";
+  font-family: "woff2";
   font-weight: normal;
   font-size: normal;
   scroll-behavior: smooth;
@@ -89,6 +88,7 @@ nav ul li a {
   text-decoration: none;
   font-size: 20px;
   position: relative;
+  transition-duration: .5s;
 }
 nav ul li a::after {
   content: "";
@@ -115,4 +115,12 @@ nav ul li a:hover::after {
 }
 .header-text h1 span {
   color: #8020bc;
+}
+.navbar{
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+}
+.navbar nav:last-of-type{
+  margin-left: 20px;
 }
