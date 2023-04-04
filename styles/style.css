@@ -9,6 +9,9 @@
   font-family: "abeezeeregular";
   font-weight: normal;
   font-size: normal;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
 body {
   margin: 0;
@@ -74,12 +77,12 @@ nav {
   flex-wrap: wrap;
 }
 .logo {
-  width: 155px;
+  width: 165px;
 }
 nav ul li {
   display: inline-block;
   list-style: none;
-  margin: 10px 20px;
+  margin: 20px 20px;
 }
 nav ul li a {
   color: white;
@@ -99,4 +102,17 @@ nav ul li a::after {
 }
 nav ul li a:hover::after {
   width: 100%;
+}
+.header-text {
+  margin-top: 20%;
+  margin-right: 10%;
+  font-size: 30px;
+}
+.header-text h1 {
+  font-size: 60px;
+  margin-top: 10%;
+  margin-right: 5%;
+}
+.header-text h1 span {
+  color: #8020bc;
 }
