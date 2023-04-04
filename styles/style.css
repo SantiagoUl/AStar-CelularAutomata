@@ -1,91 +1,102 @@
+@font-face {
+  font-family: "abeezeeregular";
+  src: url("abeezee-regular-webfont.woff2") format("woff2"),
+    url("abeezee-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: "abeezeeregular";
+  font-weight: normal;
+  font-size: normal;
+}
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #000000;
-    color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
 }
 .quote {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 90%;
-    margin-left: 5%;
-    padding-bottom: 10px;
-    margin-bottom: 50px;
-    border-bottom: 2px solid black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 90%;
+  margin-left: 5%;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+  border-bottom: 2px solid black;
 }
-#loadingNum{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding-bottom: 10px;
+#loadingNum {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 10px;
 }
 .loading {
-    z-index: 2;
-    background-color: rgb(125, 29, 185);
-    color: #000000;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: block;
-    opacity: 1;
-    transition-duration: 2s;
+  z-index: 2;
+  background-color: rgb(125, 29, 185);
+  color: #000000;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  opacity: 1;
+  transition-duration: 2s;
 }
-.loading.false{
-    opacity: 0;
+.loading.false {
+  opacity: 0;
 }
-.loadingLogo{
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    content: " ";
-    background-image: url('https://images2.imgbox.com/50/36/97F4OmMI_o.gif');
-    background-size: cover;
-    width: 500px;
-    height: 500px;
-    transform: translate(-50%, -50%);
+.loadingLogo {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  content: " ";
+  background-image: url("https://images2.imgbox.com/50/36/97F4OmMI_o.gif");
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  transform: translate(-50%, -50%);
 }
 .fillimi {
-    background-color: black;
+  background-color: black;
 }
 .homepage {
-    z-index: 0;
-    background-color: black;
+  z-index: 0;
+  background-color: black;
 }
 .container {
-    padding: 10px 10%;
+  padding: 10px 10%;
 }
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .logo {
-    width: 145px;
+  width: 145px;
 }
 nav ul li {
-    display: inline-block;
-    list-style: none;
-    margin: 10px 20px;
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
 }
-
-nav ul li a{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    position: relative;
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  position: relative;
 }
 nav ul li a::after {
-    content: '';
-    width: 0;
-    height: 3px; 
-    background: #8020BC;
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    transition: 0.5px;
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #8020bc;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5px;
 }
 nav ul li a:hover::after {
-    width: 100%;
+  width: 100%;
 }
