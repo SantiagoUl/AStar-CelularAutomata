@@ -1,11 +1,5 @@
-@font-face {
-  src: url("abeezee-regular-webfont.woff2") format("woff2"), url("abeezee-regular-webfont.woff") format("woff");
-  font-family: "woff2";
-  font-weight: normal;
-  font-style: normal;
-}
 * {
-  font-family: "woff2";
+  font-family: "Yu Gothic UI Semilight";
   font-weight: normal;
   font-size: normal;
   scroll-behavior: smooth;
@@ -69,12 +63,6 @@ body {
 .container {
   padding: 10px 10%;
 }
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
 .logo {
   position: absolute;
   left: 10%;
@@ -82,45 +70,15 @@ nav {
   width: 200px;
   height: 70%;
 }
-nav ul li {
-  display: inline-block;
-  list-style: none;
-  margin: 20px 20px;
-}
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
-  position: relative;
-  transition-duration: .5s;
-}
-nav ul li a::after {
-  content: "";
-  width: 0;
-  height: 3px;
-  background: #8020bc;
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-  transition: 0.5px;
-}
-nav ul li a:hover::after {
-  width: 100%;
-}
-.header-text {
-  margin-top: 20%;
-  margin-right: 10%;
-  font-size: 30px;
-}
 .header-text h1 {
   font-size: 60px;
-  margin-top: 10%;
+  margin-top: 23%;
   margin-right: 5%;
 }
 .header-text h1 span {
   color: #8020bc;
 }
-.navbar{
+.navbar {
   position: absolute;
   display: flex;
   width: 100%;
@@ -129,7 +87,7 @@ nav ul li a:hover::after {
   top: 0;
   justify-content: flex-end;
 }
-.navbar > ul{
+.navbar > ul {
   list-style: none;
   display: flex;
   font-size: 20px;
@@ -137,18 +95,18 @@ nav ul li a:hover::after {
   margin-top: 40px;
   margin-right: 10%;
 }
-.navbar a{
+.navbar a {
   text-decoration: none;
   color: white;
 }
-.navbar li{
+.navbar li {
   margin-left: 30px;
   padding-left: 10px;
   padding-right: 10px;
   border-bottom: 2px solid transparent;
   height: 30px;
-  transition-duration: .4s;
+  transition-duration: 0.4s;
 }
-.navbar li:hover{
+.navbar li:hover {
   border-bottom: 2px solid #8020bc;
 }
