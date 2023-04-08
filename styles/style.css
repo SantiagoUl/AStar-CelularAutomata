@@ -1,5 +1,5 @@
 * {
-  font-family: "Yu Gothic UI Semilight";
+  font-family: "Verdana";
   font-weight: normal;
   font-size: normal;
   scroll-behavior: smooth;
@@ -115,4 +115,17 @@ body {
   top: 50%;
   left: 80%;
   transform: translate(-50%, -50%);
+}section > p,
+h2 {
+  margin-top: 26%;
+}
+.ourmission > p {
+  font-size: 20px;
+  margin-top: 26%;
+  margin-left: 40%;
+}
+.h2mission > h2 {
+  font-size: 22;
+  margin-top: 25%;
+  margin-left: 42%;
 }
