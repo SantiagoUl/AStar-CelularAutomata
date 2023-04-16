@@ -12,6 +12,10 @@ body {
   background-color: #000000;
   color: rgb(255, 255, 255);
 }
+html{
+  scrollbar-width: thin;
+  scrollbar-color: ;
+}
 .quote {
   position: absolute;
   bottom: 0;
