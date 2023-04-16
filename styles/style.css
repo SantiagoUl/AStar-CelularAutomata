@@ -122,11 +122,11 @@ body {
   margin-right: 5%;
   margin-top: 26%;
   justify-content: center;
-  background-color: #5F188C;
+  background-color: #8020bc;
   width: 90%;
   color: #FCFCFC;
-  border-radius: 30px;
-  box-shadow: 1px 10px 100px #fcfcfc34;
+  border-radius: 10px;
+  box-shadow: 1px 10px 100px #8020bc4f;
 }
 .ourmission > p {
   font-size: 22;
