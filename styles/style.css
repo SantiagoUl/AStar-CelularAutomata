@@ -157,15 +157,12 @@ canvas{
   width: 400px;
   height: 400px;
 }
-.service{
-  display: none;
-}
 .footer{
   position: absolute;
-  top: 250%;
+  top: 140%;
   left: 0;
   width: 100%;
-  height: 25%;
+  height: 250px;
   background-color: #1d1d1d;
   box-shadow: 0px 1px 100px #1b1b1b;
 }
@@ -195,4 +192,56 @@ canvas{
 }
 .footer tr td{
   height: 30px;
+}
+.services{
+  text-align: center;
+  position: absolute;
+  top: 190%;
+  width: 100%;
+  height: 70%;
+}
+.cards{
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-evenly;
+}
+.option{
+  width: 350px;
+  height: 500px;
+  background-color: #1d1d1d;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.option p{
+  display: none;
+}
+.option:hover{
+  background-color: #1b1b1b;
+  box-shadow: 1px 1px 20px 2px #8020bc3d;
+}
+.option:hover .image{
+  display: none;
+}
+.option:hover p{
+  display: block;
+  margin-top: 30%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.option .image{
+    margin: auto;
+    margin-top: 40px;
+    width:  300px;
+    height: 300px;
+    content: "";
+    position: relative;
+    background: url("../img/sphere.gif");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition-duration: .5s;
+}
+.option h3{
+  margin-top: 40px;
 }
