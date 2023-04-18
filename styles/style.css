@@ -215,6 +215,7 @@ canvas{
 }
 .option p{
   display: none;
+  font-size: 22px;
 }
 .option:hover{
   background-color: #1b1b1b;
@@ -225,7 +226,7 @@ canvas{
 }
 .option:hover p{
   display: block;
-  margin-top: 30%;
+  margin-top: 20%;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -244,4 +245,5 @@ canvas{
 }
 .option h3{
   margin-top: 40px;
+  font-size: 25px;
 }
