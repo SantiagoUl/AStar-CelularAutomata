@@ -9,7 +9,7 @@
 }
 canvas{
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -20%);
     box-shadow: 1px 1px 20px 1px #8020bc52;
