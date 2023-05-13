@@ -1,8 +1,10 @@
 <html>
     <head>
-        <title>Projects</title>
+        <title>Conway's Game Of Life</title>
         <link rel="stylesheet" href="../styles/navbar.css">
-        <link rel="stylesheet" href="../styles/projects.css">
+        <link rel="stylesheet" href="../styles/aStar.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+        <script src="../scripts/Cell.js"></script>
     </head>
     <body>
         <div class="navbar">
@@ -15,18 +17,11 @@
             </ul>
         </div>
         <div class="main">
-            <a href="./conways.html" class="project">
-                    <div class="image"></div>
-                    <span class="projectName">Conway's Game Of Life</span>
-            </a>
-            <a href="./aStar.html" class="project">
-                    <div class="image"></div>
-                    <span class="projectName">A* Pathfinding Algorithm</span>
-            </a>
-            <a href="#" class="project">
-                <div class="image"></div>
-                <span class="projectName">Project Title</span>
-        </a>
+            <h1>A* Pathfinding Algorithm</h1>
+            <script src="../scripts/aStar.js"></script>
+            <p>The A* pathfinding algorithm is a popular search algorithm used to find the shortest path between two points in a graph or grid. It efficiently explores the search space by considering both the actual cost from the start node to the current node and the estimated cost from the current node to the goal node. One of the key features of A* is its ability to guarantee the discovery of the shortest path as long as certain conditions are met. However, the algorithm's performance heavily depends on the choice of heuristic function. A good heuristic should be admissible, meaning it never overestimates the actual cost, and consistent, ensuring that the estimated costs between nodes are always greater than or equal to the actual costs.</p>
+            <center style="margin-top: 10px;"><h2>f(x) = g(x) + h(x)</h2>
+            <img src="../img/aStar.png" style="margin-top: 10px;"></center>
         </div>
         <footer class="footer">
             <table>
@@ -60,4 +55,5 @@
                 </tr>
             </table>
         </footer>
-    </html>   
+    </body>
+</html>   

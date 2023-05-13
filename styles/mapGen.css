@@ -1,0 +1,19 @@
+.main{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: absolute;
+    width: 1200px;
+    display: block;
+}
+canvas{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    box-shadow: 1px 1px 20px 1px #8020bc52;
+}
+.main p{
+    margin-top: 15px;
+}
